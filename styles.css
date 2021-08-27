@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color:lightpink ;
+}
+h1 {
+    background-color: cornflowerblue;
+    height: 80px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 80px
+}
+.eas-container {
+    border: 1px black solid;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(16, 6.25%);
+}
+.grid-element-white {
+    background-color: white;
+}
+.grid-element-black {
+    background-color: black;
+}
